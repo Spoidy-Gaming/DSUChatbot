@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>College Chatbot</h1>
+        </div>
+        <div class="content">
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="College Logo">
+                <h3>Courses Offered</h3>
+                <p>Explore the variety of courses we offer to shape your future.</p>
+            </div>
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Hostel Facilities">
+                <h3>Hostel Facilities</h3>
+                <p>Experience the comfort and security of our on-campus accommodation.</p>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
